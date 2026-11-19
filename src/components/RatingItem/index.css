@@ -1,0 +1,22 @@
+.rating-item {
+  background-color: #1e252f;
+  color: #7c8798;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.rating-item:hover {
+  background-color: #7c8798;
+  color: white;
+}
+
+.selected {
+  background-color: #fc7613;
+  color: white;
+}

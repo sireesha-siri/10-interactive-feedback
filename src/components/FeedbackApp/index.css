@@ -1,0 +1,60 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #131518;
+}
+
+.card {
+  background-color: #262e38;
+  border-radius: 20px;
+  padding: 30px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  margin-bottom: 20px;
+  align-self: flex-start;
+}
+
+.ratings-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.submit-button {
+  background-color: #fc7613;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 0;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.submit-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.message {
+  color: #fc7613;
+  background-color: #1e252f;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin-top: 5px;
+}
